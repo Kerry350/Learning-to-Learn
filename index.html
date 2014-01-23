@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<title>Learning to Learn</title>
+
+		<meta name="description" content="A presentation with hints on how to best learn">
+		<meta name="author" content="Kerry Gallagher">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/night.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				
+				<section>
+					<h1>Learning to Learn</h1>
+					<h3>Who: <a href="http://www.kerrygallagher.co.uk">Kerry Gallagher</a> | <a href="http://www.twitter.com/Kerry350">@Kerry350</a></h3>
+					<h4>What: Web Developer</h4>
+					<h5>Where: Currently <a href="http://www.audacious.me">Audacious</a></h5>
+				</section>
+
+				<section>
+					<h1>We're all different</h1>
+					<p>There are <strong>3</strong> main learning styles / modalities. You may learn best using one, you may be able to use all three. Mix it up, see what works!</p>
+					<ul>
+						<li><strong>Auditory</strong> (sound: podcasts etc)</li>
+						<li><strong>Visual</strong> (videos etc)</li>
+						<li><strong>Kinesthetic (tactile)</strong> (hands on learning, like to move their bodies and use physical activities)</li>
+					</ul>
+					<p>There's also tests to help you out if you want to know what may suit you better.</p>
+				</section>
+
+				<section>
+					<h1>Set useful (and <strong>realistic*</strong> goals)</h1>
+					<p>They can be big, they can be small, they can be sporadic, they can be random. They're for you. Just keep them realistic. The human brain is hardwired to respond well to hitting targets. Don't throw it off.</p>
+					<small>* You can't be Jimi Hendrix in a week</small>
+				</section>
+
+				<section>
+					<h1>Record your progress</h1>
+					<p>Spreadsheet. Whiteboard. Pen and paper. Phone. Wunderlist. GitHub history. Old photo albums. Jot your progress somewhere, <strong>try and track something tangible</strong>. Was my code cleaner? Was my exposure better on this photo? Did this piece of writing elicit a stronger emotion?</p>
+
+					<p>Sometimes progress, and therefore getting better, are judged differently by different people. But go with what you feel is improving. Trust the old gut here.</p>
+				</section>
+
+				<section>
+					<h1>Teach someone else</h1>
+					<p>When you've made that bit of progress and had some success learning something. Teach someone else. Not only will you prove to yourself that you really understand something, but other people will ask questions that you haven't even considered.</p>
+					<p>If you can't teach someone, teach something. The rubber duck always makes a grand entrance here. Rubber ducks won't ask questions, but they're great listeners.</p>
+				</section>
+
+				<section>
+					<h1>Don't treat failure as a bad thing</h1>
+					<p>Failure's not inherently a bad thing. The good kind of failure is really just success that's a bit drunk.</p>
+					<p>You'll have learnt a lot reaching the point of failure. Just because the end goal is bad, it doesn't mean the <strong>process</strong> was.</p>
+				</section>
+
+				<section>
+					<h1>Some quick tips</h1>
+					<ul>
+						<li><strong>Listen to music.</strong> Some level of ambient noise has also been shown to increase creativity.</li>
+						<li><strong>Try some peppermint aromatherapy.</strong> Research shows it boosts memory, focus and concentration.</li>
+						<li><strong>Take a nap.</strong> A nap of an hour or so refreshes the brain. When you return you'll learn better.</li>
+						<li><strong>Little and often</strong> is normally better than a big session.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h1>Practice what you can't do, not what you can.</h1>
+					<cite>~ Justin Sandercoe</cite>
+				</section>
+
+				<section>
+					<h1>Thank you.</h1>
+				</section>
+
+				
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
